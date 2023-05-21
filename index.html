@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Login & Register Form</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js" defer></script>
+</head>
+<body>
+
+    <div class="body-container">
+        <div class="stack">
+
+            <div class="card">
+                <form action="" class="form-group">
+                    <h1>Sign In</h1>
+                    <div class="input-group">
+                        <input type="text" required>
+                        <div class="input-bg"></div>
+                        <i class="bx bx-envelope"></i>
+                        <span>Email Address</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="signinPassword" required>
+                        <div class="input-bg"></div>
+                        <i class="bx bx-lock"></i>
+                        <i class="bx bx-show show" id="signinEye"></i>
+                        <span>Password</span>
+                    </div>
+                    <div class="button-group">
+                        <button>Login</button>
+                        <div class="button-bg"></div>
+                    </div>
+                </form>
+                <button class="swap">Register Here</button>
+            </div>
+
+            <div class="card active">
+                <form action="" class="form-group">
+                    <h1>Sign Up</h1>
+                    <div class="input-group">
+                        <input type="text" required>
+                        <div class="input-bg"></div>
+                        <i class="bx bx-user"></i>
+                        <span>Name</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" required>
+                        <div class="input-bg"></div>
+                        <i class="bx bx-envelope"></i>
+                        <span>Email Address</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="signupPassword" required>
+                        <div class="input-bg"></div>
+                        <i class="bx bx-lock"></i>
+                        <i class="bx bx-show show" id="signupEye"></i>
+                        <span>Password</span>
+                    </div>
+                    <div class="button-group">
+                        <button>Register</button>
+                        <div class="button-bg"></div>
+                    </div>
+                </form>
+                <button class="swap">Login</button>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
